@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: posttwo
 title: Activities
 description: Infos about events & activities
 image: assets/images/generic/pic04.jpg
+show_image: true
 nav-menu: true
 ---
 
