@@ -17,15 +17,15 @@ MAgPIE is a large collaborative effort with contributors spanning multiple conti
   <thead>
   </thead>
   {% tablerow person in people cols:3 %}
-  <div>
+  <div class="">
+    <center>
     {%- if person.url -%}<a href="{{person.url}}" class="image">{%- endif -%}
       {%- if person.image -%}
-      <center>
         <img src="{{person.image}}" alt="{{ person.firstName }} {{ person.lastName }}" , class="round">
-      </center>
       {%- endif -%}
       {%- if person.url -%}
     </a>{%- endif -%}
+    <br>
     <div class="">
       <h3>{%- if person.url -%}<a href="{{person.url}}">{%- endif -%}
           {{ person.firstName }} {{ person.lastName }}
@@ -42,12 +42,8 @@ MAgPIE is a large collaborative effort with contributors spanning multiple conti
         <br />
         {%- endfor -%}
       </h6>
-      <h6>{% for aff in person.affiliaction %}
-        {{ aff }}
-        <br />
-        {%- endfor -%}
-      </h6>
     </div>
+    </center>
   </div>
   {% endtablerow %}
 </table>
@@ -55,7 +51,7 @@ MAgPIE is a large collaborative effort with contributors spanning multiple conti
 </div>
 
 
-<div id="alumni" class="subteam">
+<div id="alumni">
 
 <h3>Alumni</h3>
 <p> People who have contributed to the development of MAgPIE but no longer actively work on its development.</p>
@@ -64,6 +60,7 @@ MAgPIE is a large collaborative effort with contributors spanning multiple conti
 
 <table>
   {% tablerow person in alumni cols:3 %}
+  <center>
   <div class>
     {%- if person.url -%}<a href="{{person.url}}" class="image">{%- endif -%}
       {%- if person.image -%}
