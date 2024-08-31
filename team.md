@@ -2,6 +2,7 @@
 show_tile: false
 layout: team
 title: Team
+description: "Meet the MAgPIE team"
 nav-menu: true
 show_tile: true
 shortID: team
@@ -17,14 +18,6 @@ data:
     url: https://www.pik-potsdam.de/members/hlotze
     affiliaction: pik
     status: active
-  - firstName: Alexander
-    lastName: Popp
-    id: ap
-    role: Co-lead Land Use Management @ PIK
-    image: assets/images/team/popp.jpg
-    url: https://www.pik-potsdam.de/members/popp
-    affiliaction: pik
-    status: active
   - firstName: Jan Philipp
     lastName: Dietrich
     id: jpd
@@ -38,6 +31,14 @@ data:
     keywords: 
       - Research Software Engineering
       - Technological Change
+    affiliaction: pik
+    status: active
+  - firstName: Alexander
+    lastName: Popp
+    id: ap
+    role: Co-lead Land Use Management @ PIK
+    image: assets/images/team/popp.jpg
+    url: https://www.pik-potsdam.de/members/popp
     affiliaction: pik
     status: active
   - firstName: Abhijeet

@@ -1,0 +1,23 @@
+---
+layout: workshop_post
+---
+
+<p>
+{{ content }}
+</p>
+
+{% assign workshopPages = site["workshops"] | where: "workshopID", page.workshopID %}
+{% assign home = workshopPages | where: "landing", true | first %}
+
+<section id="two" class="tile">
+	<h3>News</h3>
+{% for element in workshopPages %}
+{% if page.landing != "true" %}
+<section>
+		<a href="{{element.url}}" target = "{{ page.button_target }}"">
+			{{ element.title}}
+		</a>
+</section>
+{% endif %}
+{% endfor %}
+</section>

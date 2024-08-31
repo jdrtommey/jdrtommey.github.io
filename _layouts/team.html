@@ -1,5 +1,5 @@
 ---
-layout: posttwo 
+layout: posttwo
 ---
 
 <p>
@@ -13,11 +13,9 @@ MAgPIE is a large collaborative effort with contributors spanning multiple conti
 
 <h3> Meet the team </h3>
 
-<table>
-  <thead>
-  </thead>
-  {% tablerow person in people cols:3 %}
-  <div class="">
+<div class="flex-container">
+  {% for person in people %}  
+  <div class="flex-inner">
     <center>
     {%- if person.url -%}<a href="{{person.url}}" class="image">{%- endif -%}
       {%- if person.image -%}
@@ -25,7 +23,6 @@ MAgPIE is a large collaborative effort with contributors spanning multiple conti
       {%- endif -%}
       {%- if person.url -%}
     </a>{%- endif -%}
-    <br>
     <div class="">
       <h3>{%- if person.url -%}<a href="{{person.url}}">{%- endif -%}
           {{ person.firstName }} {{ person.lastName }}
@@ -45,8 +42,8 @@ MAgPIE is a large collaborative effort with contributors spanning multiple conti
     </div>
     </center>
   </div>
-  {% endtablerow %}
-</table>
+  {% endfor %}
+</div> 
 
 </div>
 
@@ -58,10 +55,10 @@ MAgPIE is a large collaborative effort with contributors spanning multiple conti
 
 {% assign alumni = page.data | where: "status", "alumni" %}
 
-<table>
-  {% tablerow person in alumni cols:3 %}
+<div class ="flex-container">
+  {% for person in alumni %}
+  <div class="flex-inner">
   <center>
-  <div class>
     {%- if person.url -%}<a href="{{person.url}}" class="image">{%- endif -%}
       {%- if person.image -%}
       <center>
@@ -88,29 +85,7 @@ MAgPIE is a large collaborative effort with contributors spanning multiple conti
       </h6>
     </div>
   </div>
-  {% endtablerow %}
+  {% endfor %}
 </table>
 
 </div>
-
-<script>
-  function toggle(button) {
-    var element_name = button.name;
-    let element = document.getElementById(element_name);
-    let hidden = element.getAttribute("hidden");
-    var subteams = document.getElementsByClassName("subteam");
-    for (i = 0; i < subteams.length; i++){
-      let current_team = subteams[i]
-      if (current_team.id != element.id){
-       current_team.setAttribute("hidden", "hidden");
-      }
-      else{
-        if (hidden) {
-          current_team.removeAttribute("hidden");
-        } else {
-        //  current_team.setAttribute("hidden", "hidden");
-        }
-      }
-    }
-  }
-</script>
