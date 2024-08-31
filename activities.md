@@ -31,3 +31,32 @@ Alternatively, you can open the calendar [online](https://cloud.pik-potsdam.de/i
 <a href="https://cloud.pik-potsdam.de/index.php/apps/calendar/p/3a2r4TYXw7es7ZGt/dayGridMonth/now" class="button" target="_blank">view calendar</a>
 
 
+
+
+<link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.3.1/main.min.css' rel='stylesheet' />
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.3.1/main.min.js'></script>
+
+
+<script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var initialTimeZone = 'local';
+    var timeZoneSelectorEl = document.getElementById('timezone-selector');
+    var loadingEl = document.getElementById('loading');
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+        events: {
+            url: "https://cloud.pik-potsdam.de/remote.php/dav/public-calendars/3a2r4TYXw7es7ZGt/?export",
+            format: 'ics'
+        },
+      eventTimeFormat: { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' },
+
+    });
+
+    calendar.render();
+  });
+
+</script>
+
+<div id="calendar"></div>
