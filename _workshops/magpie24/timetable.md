@@ -1,5 +1,5 @@
 ---
-layout: workshop_timetable 
+layout: timetable 
 title: Timetable
 workshopID: 24
 published: true

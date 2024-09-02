@@ -2,11 +2,12 @@
 show_tile: false
 layout: team
 title: Team
+style: 4
 description: "Meet the MAgPIE team"
 nav-menu: true
 show_tile: true
 shortID: team
-image: assets/images/generic/pic07.jpg
+image: assets/images/generic/lu7.jpg
 data:
   - firstName: Hermann
     lastName: Lotze-Campen

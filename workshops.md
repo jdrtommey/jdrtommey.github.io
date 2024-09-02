@@ -2,7 +2,8 @@
 layout: posttwo 
 title: Workshops
 description: 'Learn how to contribute to MAgPIE'
-image: assets/images/generic/pic08.jpg
+image: assets/images/generic/lu16.png
+style: 6
 author: null
 nav-menu: true
 show_tile: true
