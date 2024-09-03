@@ -12,7 +12,7 @@ collection: workshops
 
 
 
-{% assign workshops = site[page.collection] | where: "landing", "true" %}
+{% assign workshops = site[page.collection] | where: "home", "true" %}
 
 {% assign future_workshops = workshops | where:  "archived", "false" %}
 {% assign past_workshops = workshops | where:  "archived", "true" %}
