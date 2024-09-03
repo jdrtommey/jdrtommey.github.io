@@ -8,7 +8,6 @@ author: null
 nav-menu: true
 show_tile: true
 collection: workshops
-year: 24
 ---
 
 

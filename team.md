@@ -227,7 +227,3 @@ affiliations:
     name: Potsdam Institute for Climate Impact Research (PIK)
     country: Germany
 ---
-
-```
-foobar
-```
