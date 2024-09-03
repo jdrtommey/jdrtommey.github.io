@@ -2,7 +2,7 @@
 layout: workshop_post
 title: MAgPIE22
 shortID: workshop
-landing: true
+home: true
 workshopID: 22
 published: true
 archived: true

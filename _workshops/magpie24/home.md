@@ -1,10 +1,10 @@
 ---
-layout: workshop_landing
+layout: workshop_post
 title: MAgPIE24
 shortID: workshop
 workshopID: 24
 published: true
-landing: true
+home: true
 archived: true
 image: assets/images/generic/pic08.jpg
 ---

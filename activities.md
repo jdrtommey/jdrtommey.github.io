@@ -32,5 +32,5 @@ Alternatively, you can open the calendar [online](https://cloud.pik-potsdam.de/i
 <a href="https://cloud.pik-potsdam.de/index.php/apps/calendar/p/3a2r4TYXw7es7ZGt/dayGridMonth/now" class="button" target="_blank">view calendar</a>
 
 <centre>
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FBerlin&bgcolor=%23a0b99a&title=MAgPIE%20Community%20Calendar&src=c3BzcHJzamcxZjlkYTZxYnQwOWYxb3UwdWxwNGpoNzdAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23795548" style="border:solid 1px #777" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FBerlin&bgcolor=%23a0b99a&title=MAgPIE%20Community%20Calendar&src=c3BzcHJzamcxZjlkYTZxYnQwOWYxb3UwdWxwNGpoNzdAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23795548" style="border:solid 10px #a0b99a" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
 </centre>

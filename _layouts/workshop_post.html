@@ -13,7 +13,7 @@
     {% include header.html %} 
     
 {% assign workshopPages = site["workshops"] | where: "workshopID", page.workshopID %}
-{% assign home = workshopPages | where: "landing", true | first %}
+{% assign home = workshopPages | where: "home", true | first %}
 {% assign workshopTitle = home.title %}
     
 <!-- Main -->
@@ -35,6 +35,7 @@
 
 		<div class="content">
 
+		<a href = {{ home.url }} >Home</a> |
 		<a href = "./timetable.html">Timetable</a> |
 		<a href = "./registration.html">Register</a>
 
@@ -43,15 +44,23 @@
 	</div>
 </section>
 
-
-
-
-			
 <section class="section">
 	<p>
 	{{ content }}
 	</p>
-	<a href = "./landing.html">Home</a> 
+</section>
+
+<section id="two" class="tile">
+	<h3>Contents</h3>
+{% for element in workshopPages %}
+{% if element.home != true %}
+<section>
+		<a href="{{element.url}}" target = "{{ page.button_target }}"">
+			{{ element.title }}
+		</a>
+</section>
+{% endif %}
+{% endfor %}
 </section>
 
 </div>
