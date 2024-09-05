@@ -1,8 +1,8 @@
 ---
 layout: tutorial
 title:  Input data preparation (MADRaT)
-image: assets/images/generic/pic12.jpg
 shortID: madrat
+image: assets/images/generic/pic14.jpg
 lastUpdated:   2022-22-02
 model: MADRaT
 modelVersion: 1.0.0

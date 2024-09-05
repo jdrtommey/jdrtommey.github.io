@@ -1,8 +1,8 @@
 ---
 layout: tutorial
 title:  Starting a MAgPIE run
-image: assets/images/generic/pic04.jpg
 shortID: start
+image: assets/images/generic/pic05.jpg
 lastUpdated: 2020-11-20
 model: MAgPIE
 modelVersion: 4.0.0
@@ -30,7 +30,7 @@ execution, that should be understood to do basic troubleshooting.
 
 # Start Scripts
 
-To run the model execute within in terminal (cmd for Windows, shell for
+To run the model execute within a terminal (cmd for Windows, shell for
 Linux, MacOS) in the main folder of the model:
 
 ``` bash

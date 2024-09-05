@@ -1,8 +1,8 @@
 ---
 layout: tutorial
 title:  Input data repositories & Patches
-image: assets/images/generic/pic11.jpg
 shortID: changeInput
+image: assets/images/generic/pic12.jpg
 lastUpdated:   2022-02-28
 model: MAgPIE
 modelVersion: 4.4.2
