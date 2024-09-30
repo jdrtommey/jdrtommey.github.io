@@ -2,6 +2,9 @@
 layout: post
 title:  "Workshop schedule"
 date:   2021-10-14 11:00:00 +0200
+image: assets/images/generic/pic01.jpg
+description: The preliminary workshop schedule is now available.
+nav-menu: true
 author: jpd
 categories: magpie22
 published: true

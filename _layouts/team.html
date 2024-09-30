@@ -8,7 +8,7 @@ MAgPIE is a large collaborative effort with contributors spanning multiple conti
 
 {% assign team = site.pages | where: "shortID", "team" | first %}
 
-{% assign people = page.data | where: "status", "active" %}
+{% assign people = page.data %}
 <div id={{ subteam.id }} class="subteam">
 
 <h3> Meet the team </h3>
@@ -44,48 +44,5 @@ MAgPIE is a large collaborative effort with contributors spanning multiple conti
   </div>
   {% endfor %}
 </div> 
-
-</div>
-
-
-<div id="alumni">
-
-<h3>Alumni</h3>
-<p> People who have contributed to the development of MAgPIE but no longer actively work on its development.</p>
-
-{% assign alumni = page.data | where: "status", "alumni" %}
-
-<div class ="flex-container">
-  {% for person in alumni %}
-  <div class="flex-inner">
-  <center>
-    {%- if person.url -%}<a href="{{person.url}}" class="image">{%- endif -%}
-      {%- if person.image -%}
-      <center>
-        <img src="{{person.image}}" alt="{{ person.firstName }} {{ person.lastName }}" , class="round">
-      </center>
-      {%- endif -%}
-      {%- if person.url -%}
-    </a>{%- endif -%}
-    <div class="">
-      <h3>{%- if person.url -%}<a href="{{person.url}}">{%- endif -%}
-          {{ person.firstName }} {{ person.lastName }}
-          {%- if person.url -%}</a>{%- endif -%}</h3>
-      <h5>{%- assign sep = "" -%}
-        {% for role in person.role %}
-        {{ role }}
-        <br />
-        {%- endfor -%}
-      </h5>
-      {%- assign sep = "" -%}
-      <h6>{% for keyword in person.keywords %}
-        {{ keyword }}
-        <br />
-        {%- endfor -%}
-      </h6>
-    </div>
-  </div>
-  {% endfor %}
-</table>
 
 </div>

@@ -3,7 +3,7 @@ show_tile: false
 layout: team
 title: Team
 style: 4
-description: "Meet the MAgPIE team"
+description: "Meet the MAgPIE developers"
 nav-menu: true
 show_tile: true
 shortID: team

@@ -2,6 +2,7 @@
 layout: post
 title:  "MAgPIE stories program now available"
 date:   2022-02-11 10:00:00 +0200
+image: assets/images/generic/pic07.jpg
 author: jpd
 categories: magpie
 published: true

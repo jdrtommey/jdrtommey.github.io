@@ -48,6 +48,7 @@ socials:
   home: https://www.pik-potsdam.de/en/institute/departments/transformation-pathways/research/landuse
   github: https://github.com/magpiemodel/magpie
   wikipedia-w: https://en.wikipedia.org/wiki/MAgPIE
+  book: https://rse.pik-potsdam.de/doc/magpie/4.8.2
  
 # build settings
 markdown: kramdown
