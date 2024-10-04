@@ -5,7 +5,7 @@ date:   2021-10-21 10:00:00 +0200
 image: assets/images/generic/pic06.jpg
 author: jpd
 categories: magpie
-published: true
+published: false
 ---
 
 Besides the upcoming **MAgPIE22** we have just opened another

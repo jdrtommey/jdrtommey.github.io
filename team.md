@@ -42,12 +42,98 @@ data:
     url: https://www.pik-potsdam.de/members/popp
     affiliaction: pik
     status: active
+  - firstName: Florian
+    lastName: Humpenöder
+    id: fh
+    url: https://www.pik-potsdam.de/members/florianh
+    image: assets/images/team/humpenoder.jpeg
+    affiliaction: pik
+    status: active
   - firstName: Abhijeet
     lastName: Mishra
     id: am
     image: assets/images/team/mishra.jpeg
     url: https://www.pik-potsdam.de/members/mishra
     status: alumni
+  - firstName: Felicitas
+    lastName: Beier
+    id: fb
+    image: assets/images/team/beier.jpeg
+    url: https://www.pik-potsdam.de/members/beier
+    affiliaction: pik
+    status: active
+  - firstName: Benjamin Leon
+    lastName: Bodirsky
+    id: bb
+    image: assets/images/team/bodirsky.jpeg
+    url: https://www.pik-potsdam.de/members/bodirsky
+    affiliaction: 
+      - pik 
+    status: active
+  - firstName: Edna Molina
+    lastName: Bacca
+    id: emb
+    url: https://www.pik-potsdam.de/members/mbacca
+    image: assets/images/team/bacca.jpeg
+    affiliaction: pik
+    status: active
+  - firstName: Kristine
+    lastName: Karstens
+    id: kk
+    image: assets/images/team/karstens.jpeg
+    url: https://www.pik-potsdam.de/members/karstens
+    affiliaction: pik
+    status: active
+  - firstName: Pascal
+    lastName: Sauer
+    id: ma
+    image: assets/images/team/sauer.jpeg
+    url: https://www.pik-potsdam.de/members/pascalfu
+    affiliaction: pik
+    status: active
+  - firstName: Patrick
+    lastName: von Jeetze
+    id: pj
+    image: assets/images/team/vonjeetze.jpeg
+    url: https://www.pik-potsdam.de/members/vjeetze
+    affiliaction: pik
+    status: active
+  - firstName: Miodrag
+    lastName: Stevanović
+    id: ms
+    image: assets/images/team/stevanovic.png
+    url: https://www.pik-potsdam.de/members/miodrag
+    affiliaction: pik
+    status: active
+  - firstName: Isabelle
+    lastName: Weindl
+    id: iw
+    image: assets/images/team/weindl.jpeg
+    url: https://www.pik-potsdam.de/members/weindl
+    affiliaction: pik
+    status: active
+  - firstName: David
+    lastName: Klein
+    id: dk
+    image: assets/images/team/klein.jpeg
+    url: https://www.pik-potsdam.de/members/dklein
+    affiliaction: 
+      - pik 
+    status: active
+  - firstName: Vartika
+    lastName: Singh
+    id: vs
+    image: assets/images/team/singh.png
+    url: https://www.pik-potsdam.de/members/vasingh
+    affiliaction: india 
+    status: active
+  - firstName: Jan
+    lastName: Steinhauser
+    id: js
+    image: assets/images/team/steinhauser.jpg
+    affiliaction: 
+      - iiasa
+    status: active
   - firstName: Michael
     lastName: Windisch
     id: mw
@@ -63,18 +149,11 @@ data:
     affiliaction: 
       - china
     status: active
-  - firstName: Vartika
-    lastName: Singh
-    id: vs
-    image: assets/images/team/singh.png
-    url: https://www.pik-potsdam.de/members/vasingh
-    affiliaction: india 
-    status: active
-  - firstName: Felicitas
-    lastName: Beier
-    id: fb
-    image: assets/images/team/beier.jpeg
-    url: https://www.pik-potsdam.de/members/beier
+  - firstName: David Meng-Chuen
+    lastName: Chen
+    id: dc
+    image: assets/images/team/chen.jpeg
+    url: https://www.pik-potsdam.de/members/davidch
     affiliaction: pik
     status: active
   - firstName: Marcos
@@ -84,67 +163,11 @@ data:
     url: https://www.pik-potsdam.de/members/pedrosa
     affiliaction: pik
     status: active
-  - firstName: Pascal
-    lastName: Sauer
-    id: ma
-    image: assets/images/team/sauer.jpeg
-    url: https://www.pik-potsdam.de/members/pascalfu
-    affiliaction: pik
-    status: active
-  - firstName: Edna Molina
-    lastName: Bacca
-    id: emb
-    url: https://www.pik-potsdam.de/members/mbacca
-    image: assets/images/team/bacca.jpeg
-    affiliaction: pik
-    status: active
-  - firstName: Florian
-    lastName: Humpenöder
-    id: fh
-    url: https://www.pik-potsdam.de/members/florianh
-    image: assets/images/team/humpenoder.jpeg
-    affiliaction: pik
-    status: active
-  - firstName: David Meng-Chuen
-    lastName: Chen
-    id: dc
-    image: assets/images/team/chen.jpeg
-    url: https://www.pik-potsdam.de/members/davidch
-    affiliaction: pik
-    status: active
-  - firstName: Kristine
-    lastName: Karstens
-    id: kk
-    image: assets/images/team/karstens.jpeg
-    url: https://www.pik-potsdam.de/members/karstens
-    affiliaction: pik
-    status: active
-  - firstName: Isabelle
-    lastName: Weindl
-    id: iw
-    image: assets/images/team/weindl.jpeg
-    url: https://www.pik-potsdam.de/members/weindl
-    affiliaction: pik
-    status: active
-  - firstName: Miodrag
-    lastName: Stevanović
-    id: ms
-    image: assets/images/team/stevanovic.png
-    url: https://www.pik-potsdam.de/members/miodrag
-    affiliaction: pik
-    status: active
   - firstName: Debbora
     lastName: Leip
     id: dl
     image: assets/images/team/leip.png
     url: https://www.pik-potsdam.de/members/dleip
-    affiliaction: pik
-    status: active
-  - firstName: Patrick
-    lastName: von Jeetze
-    id: pj
-    image: assets/images/team/vonjeetze.jpeg
-    url: https://www.pik-potsdam.de/members/vjeetze
     affiliaction: pik
     status: active
   - firstName: Michael
@@ -156,14 +179,6 @@ data:
       - pik
       - foo
     status: active
-  - firstName: Benjamin Leon
-    lastName: Bodirsky
-    id: bb
-    image: assets/images/team/bodirsky.jpeg
-    url: https://www.pik-potsdam.de/members/bodirsky
-    affiliaction: 
-      - pik 
-    status: active
   - firstName: Ulrich
     lastName: Kreidenweis
     id: ku
@@ -172,25 +187,17 @@ data:
     affiliaction: 
       - pik 
     status: alumni
-  - firstName: David
-    lastName: Klein
-    id: dk
-    image: assets/images/team/klein.jpeg
-    url: https://www.pik-potsdam.de/members/dklein
-    affiliaction: 
-      - pik 
-    status: active
-  - firstName: Geanderson
-    lastName: Ambrosio
-    id: ag
-    image: assets/images/team/ambrosio.jpeg
-    affiliaction: 
-      - pik 
-    status: alumni
   - firstName: Ewerton
     lastName: Araujo
     id: ea
     image: assets/images/team/araujo.jpeg
+    affiliaction: 
+      - pik 
+    status: alumni
+  - firstName: Geanderson
+    lastName: Ambrosio
+    id: ag
+    image: assets/images/team/ambrosio.jpeg
     affiliaction: 
       - pik 
     status: alumni
@@ -207,13 +214,6 @@ data:
     image: assets/images/team/koberle.jpg
     affiliaction: 
       - pik 
-    status: active
-  - firstName: Jan
-    lastName: Steinhauser
-    id: js
-    image: assets/images/team/steinhauser.jpg
-    affiliaction: 
-      - iiasa
     status: active
   - firstName: Jake
     lastName: Tommey

@@ -3,10 +3,11 @@ layout: workshop_post
 title: MAgPIE24
 shortID: workshop
 workshopID: 24
+description: Workshop held in April 2024.
 published: true
 home: true
 archived: true
-image: assets/images/generic/pic08.jpg
+image: assets/images/generic/pic02.jpg
 ---
 
 Welcome to the homepage for the MAgPIE 24 conference.

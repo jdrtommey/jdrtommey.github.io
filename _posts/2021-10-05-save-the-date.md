@@ -5,6 +5,7 @@ date:   2021-10-05 14:00:00 +0200
 image: assets/images/generic/pic03.jpg
 author: jpd
 categories: magpie22
+published: false
 ---
 
 ### **Mar 4<sup>th</sup> - Mar 16<sup>th</sup> 2022** MAgPIE22 workshop & stories
