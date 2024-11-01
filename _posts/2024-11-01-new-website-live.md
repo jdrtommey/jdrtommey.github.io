@@ -15,7 +15,7 @@ We are excited to announce the launch of our newly redesigned **MAgPIE** website
 
 - **[Activities](/activities.html)**: Stay up to date with all upcoming events and workshops related to the MAgPIE model. The activities page includes an interactive calendar, so you never miss any key dates or happenings in the world of global agricultural development.
 
-- **[Team](/team.html)**: Meet the contributors behind MAgPIE! Our team page showcases the many individuals involved in the model's development. If you're a contributor but don’t see your name listed, feel free to reach out or submit a pull request to [our GitHub repository](https://github.com/magpiemodel/magpiemodel.github.io) to add yourself.
+- **[Contributors](/contributors.html)**: Meet the contributors behind MAgPIE! Our team page showcases the many individuals involved in the model's development. If you're a contributor but don’t see your name listed, feel free to reach out or submit a pull request to [our GitHub repository](https://github.com/magpiemodel/magpiemodel.github.io) to add yourself.
 
 - **[Tutorials](/tutorials.html)**: All the tutorials from our old website have been migrated here! Whether you're new to the MAgPIE model or looking to brush up on specific features, this section provides all the guides you need.
 

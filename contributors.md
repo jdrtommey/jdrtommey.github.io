@@ -1,7 +1,7 @@
 ---
 show_tile: false
-layout: team
-title: Team
+layout: contributors 
+title: Contributors
 style: 4
 description: "Meet the MAgPIE contributors"
 nav-menu: true
