@@ -12,7 +12,8 @@
 
     {% include header.html %} 
     
-{% assign workshopPages = site["workshops"] | where: "workshopID", page.workshopID %}
+{% assign workshopPages = site["workshops"] | where: "workshopID", page.workshopID  | where: "published", true %}
+{% assign workshopPages = workshopPages | where: "published", true %}
 {% assign home = workshopPages | where: "home", true | first %}
 {% assign workshopTitle = home.title %}
     
@@ -47,8 +48,8 @@
 
 <section id="two" class="tile">
 	<h3>Contents</h3>
-{% for element in workshopPages %}
-{% if element.home != true %}
+{% for element in workshopPages  %}
+{% if element.home != true  %}
 <section>
 		<a href="{{element.url}}" target = "{{ page.button_target }}"">
 			{{ element.title }}

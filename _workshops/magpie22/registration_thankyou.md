@@ -2,6 +2,7 @@
 layout: workshop_post
 title: Thank you for your registration!
 workshopID: 22
+published: false
 permalink: /magpie22/registration/thankyou
 ---
 

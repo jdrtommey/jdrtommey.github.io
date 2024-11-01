@@ -4,7 +4,7 @@ title: Call for Contributions
 shortID: workshop
 year: 24
 workshopID: 24
-published: true
+published: false
 ---
 
 #### submission deadline: 08.03.2024 

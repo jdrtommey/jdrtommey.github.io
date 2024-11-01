@@ -3,15 +3,15 @@ layout: posttwo
 ---
 
 <p>
-MAgPIE is a large collaborative effort with contributors spanning multiple continents.
+  MAgPIE is a large collaborative effort with contributors spanning multiple continents.
 </p>
-
-{% assign team = site.pages | where: "shortID", "team" | first %}
-
-{% assign people = page.data %}
-<div id={{ subteam.id }} class="subteam">
-
-<h3> Meet the team </h3>
+  
+ {% assign contributors = site.pages | where: "shortID", "contributors" | first %}
+  
+ {% assign people = page.data %}
+ <div id={{ subteam.id }} class="subteam">
+ 
+ <h3> Meet the contributors </h3>
 
 <div class="flex-container">
   {% for person in people %}  

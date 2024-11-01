@@ -3,7 +3,7 @@ layout: workshop_post
 shortID: workshop
 year: 24
 workshopID: 24
-published: true
+published: false
 ---
 
 <style>

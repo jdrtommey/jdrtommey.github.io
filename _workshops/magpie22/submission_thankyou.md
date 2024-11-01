@@ -1,6 +1,7 @@
 ---
 layout: workshop_post
 title: Thank you for your submission!
+published: false
 workshopID: 22
 ---
 

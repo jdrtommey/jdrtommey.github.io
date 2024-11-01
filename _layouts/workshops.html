@@ -7,7 +7,7 @@ layout: landing
 
 <!-- Two -->
 <section id="two" class="spotlights">
-{% assign workshops = site[page.collection] | where: "home", "true" %}
+{% assign workshops = site[page.collection] | where: "home", "true" | reverse %}
 {% for element in workshops %}
 <section>
 		<a href="{{element.url}}" target = "{{ page.button_target }}" class="image">

@@ -3,6 +3,7 @@ layout: workshop_post
 title: Thank you for your submission!
 shortID: workshop
 workshopID: 24
+published: false
 year: 24
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Launch of the New and Improved MAgPIE Website"
-date: 2024-09-26 10:00:00 +0200
+date: 2024-11-01 10:00:00 +0200
 image: assets/images/generic/pic08.jpg
 author: jt
 categories: magpie
