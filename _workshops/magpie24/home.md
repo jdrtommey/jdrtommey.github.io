@@ -3,7 +3,7 @@ layout: workshop_post
 title: MAgPIE24 & Stories
 shortID: workshop
 workshopID: 24
-description: The MAgPIE22 workshop & stories event took place at the Potsdam Institute for Climate Impact Research (PIK) as well as online from April 10th until April 12th 2024. 
+description: The MAgPIE24 workshop & stories event took place at the Potsdam Institute for Climate Impact Research (PIK) as well as online from April 10th until April 12th 2024. 
 published: true
 home: true
 archived: true
